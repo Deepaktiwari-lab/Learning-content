@@ -28,7 +28,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 		<title>Deepak Tiwari Election</title>
 	</head>
 	<body>
-		<h1>Hello, welcome to Deepak Tiwari's election!</h1>
+		<h1>Hello, welcome to Deepak Tiwari's election!!</h1>
 		<p>Which team do you like more?</p>
 		<form action="/vote" method="post">
 			<input type="radio" name="team" value="india" id="india">
